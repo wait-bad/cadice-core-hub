@@ -1,0 +1,31 @@
+# Rust build artifacts
+target/
+src-tauri/target/
+**/*.rs.bk
+Cargo.lock
+
+# Node / Web artifacts
+node_modules/
+dist/
+*.log
+
+# Environment & Sensitive configs
+.env
+.env.*
+*.local
+*.key
+*.pem
+*.token
+
+# System & Editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.bak
+*.bak_*
+.vscode/
+.idea/
+
+# Windows temp
+*.tmp
+*.temp
